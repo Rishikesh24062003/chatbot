@@ -1,0 +1,97 @@
+# Core Python ML/AI Stack - Stable & Compatible
+# Optimized for M1/M2 Mac (ARM64), Python 3.10+
+# Tested Configuration - No NumPy 2.x crashes
+
+# Core Scientific Computing
+numpy<2.0,>=1.26.0
+
+# PyTorch (CPU-only, M1/M2 Compatible)
+torch==2.3.0
+torchvision==0.18.0
+torchaudio==2.3.0
+
+# LangChain Ecosystem
+langchain==0.1.16
+langchain-community==0.0.32
+langchain-core>=0.1.42,<0.2.0
+langchain-text-splitters>=0.0.1,<0.1
+langchain-huggingface==0.0.3
+
+# Transformers & Embeddings
+transformers==4.41.2
+sentence-transformers==2.7.0
+tokenizers>=0.19.1,<0.20
+huggingface-hub>=0.23.0
+
+# Vector Store
+faiss-cpu==1.7.4
+
+# PDF Processing
+pypdf==4.1.0
+pdf2image==1.17.0
+pdfminer.six>=20250506
+unstructured==0.13.6
+unstructured-client>=0.25.0
+unstructured-inference>=1.0.0
+
+# Computer Vision
+opencv-python-headless==4.8.1.78
+
+# Web UI
+gradio==4.12.0
+
+# LLM APIs
+google-generativeai>=0.8.0
+ollama>=0.3.0
+llmlingua>=0.2.0
+
+# Data Validation & Models
+pydantic==2.7.4
+pydantic-core==2.18.4
+
+# Utilities
+aiofiles>=23.2.0,<24.0
+python-magic>=0.4.27
+chardet>=5.0.0
+filetype>=1.2.0
+python-dateutil>=2.8.2
+backoff>=2.0.0
+tenacity>=8.0.0
+tqdm>=4.60.0
+
+# NLP
+nltk>=3.9.0
+
+# Data Processing
+pandas>=2.0.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+tabulate>=0.9.0
+emoji>=2.0.0
+langdetect>=1.0.9
+rapidfuzz>=3.0.0
+pyparsing>=3.0.0
+
+# HTTP & Async
+httpx>=0.27.0
+aiohttp>=3.8.0
+requests>=2.32.0
+requests-toolbelt>=1.0.0
+
+# Database
+SQLAlchemy>=1.4,<3
+
+# Parsing & JSON
+jsonpatch>=1.33
+jsonpointer>=1.9
+python-iso639
+wrapt>=2.0.0
+
+# Type Checking & Validation
+typing-extensions>=4.8.0
+annotated-types>=0.4.0
+
+# SYSTEM DEPENDENCIES (install via Homebrew):
+# brew install poppler
+
+# Note: PyTorch 2.3.0 includes MPS (Metal Performance Shaders) support for M1/M2 GPU acceleration
