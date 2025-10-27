@@ -133,8 +133,8 @@ Steps:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/Priyanshu-5257/docquery-ai-chatbot.git
-cd docquery-ai-chatbot
+git clone https://github.com/Rishikesh24062003/chatbot.git
+cd chatbot
 ```
 
 ### 2. Install system dependencies
